@@ -1,0 +1,8 @@
+a = int (input("Ievadi pirmo skaitļu "))
+b = int (input("Ievadi otro skaitļu "))
+if a>b:
+  print (str(a) + "  vairak neka  "+ str(b))
+elif b>a:
+  print (str(b) + "  vairak neka  "+ str(a))
+else:
+  print (str(a) + "  ir vienads ar  "+ str(b))
