@@ -1,0 +1,15 @@
+a = int (input("Cik pūķim ir gadi?"))
+if a <100:
+  o=0
+  i=0
+  while a > o:
+    i+=3
+    o+=1
+elif a >100:
+  o=100
+  i=300
+  while a>o:
+    o+=1
+    i+=2
+e= i*2
+print ("puķim ir "+str(i) +" galvas un "+ str(e) +" acis")
