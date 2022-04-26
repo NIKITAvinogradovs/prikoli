@@ -1,0 +1,11 @@
+a = float (input("Ievadi summu "))
+if a >= 200 and a <500:
+  b = a/10
+  c = a-b
+  print ("jusu summa ir "+ str(c))
+elif a>= 500:
+  b = a/20
+  c = a-b
+  print ("jusu summa ir "+ str(c))
+else:
+  print ("jusu summa ir "+str(a))
