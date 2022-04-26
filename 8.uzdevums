@@ -1,0 +1,8 @@
+a= int (input("Ievadi brāļa vecumu: "))
+b= int (input("ievadi masas vecumu :"))
+if a >b:
+  print("braļis ir vecak")
+elif b >a:
+  print("masa ir vecak")
+else:
+  print ("dvīņi")
